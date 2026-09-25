@@ -1,4 +1,4 @@
-# Correlation Plot
+# Association Plot
 Script to generate an association plot. The plot uses systolic blood pressure measurements from the arm and finger ([Bland & Altman, 1995](https://www.thelancet.com/journals/lancet/article/PIIS0140673695917489/abstract)) for demonstration.
 
 Environment setup:
