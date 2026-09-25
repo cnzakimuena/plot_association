@@ -1,5 +1,5 @@
 """
-This code generates a correlation plot. The plot uses systolic blood pressure measurements 
+This code generates an association plot. The plot uses systolic blood pressure measurements 
 from the arm and finger for demonstration. The appearance of the plot is customized and the final 
 figure is saved.
 """
@@ -20,7 +20,7 @@ def generate_plot(measure1,
                   y_range_array,
                   **plot_kwargs):
     """
-    Calls function to generate a correlation plot for two sets of measurements and provides 
+    Calls function to generate an association plot for two sets of measurements and provides 
     customized aesthetics.
     """
 
@@ -33,7 +33,7 @@ def generate_plot(measure1,
 
         fig, ax = plt.subplots(figsize=(7, 6.5))
 
-        # correlation plot
+        # association plot
         # generate basic scatterplot
         ax.plot(measure1, measure2, 'o',
                 markerfacecolor=plot_kwargs['specified_color'],

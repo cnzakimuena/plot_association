@@ -1,5 +1,5 @@
 # Correlation Plot
-Script to generate a correlation plot. The plot uses systolic blood pressure measurements from the arm and finger ([Bland & Altman, 1995](https://www.thelancet.com/journals/lancet/article/PIIS0140673695917489/abstract)) for demonstration.
+Script to generate an association plot. The plot uses systolic blood pressure measurements from the arm and finger ([Bland & Altman, 1995](https://www.thelancet.com/journals/lancet/article/PIIS0140673695917489/abstract)) for demonstration.
 
 Environment setup:
 
@@ -17,7 +17,7 @@ pip install -r requirements.txt
 Usage:
 
 ```bash
-python correlation_plot.py
+python plot_association.py
 ```
 
 <p align="center">
